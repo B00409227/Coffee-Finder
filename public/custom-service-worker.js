@@ -14,6 +14,9 @@ const urlsToCache = [
   '/favicon.ico',
   '/static/js/bundle.js',
   '/static/css/main.css',
+  '/static/js/main.19126f6d.js', // Updated path
+  '/static/css/main.e6c13ad2.css', // Updated path
+
   // Add other assets you want to cache
 ];
 
