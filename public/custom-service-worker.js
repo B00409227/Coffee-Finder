@@ -18,6 +18,8 @@ const urlsToCache = [
   // Add other assets you want to cache
 ];
 
+console.log('Caching URLs:', urlsToCache);
+
 // Install the service worker
 self.addEventListener('install', (event) => {
   event.waitUntil(
