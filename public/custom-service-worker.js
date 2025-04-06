@@ -7,6 +7,8 @@ const CACHE_NAME = 'coffee-finder-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
+  '/styles.css',
+  '/script.js',
   '/logo192.png',
   '/logo512.png',
   '/manifest.json',
@@ -20,7 +22,9 @@ const urlsToCache = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
+      return cache.addAll(urlsToCache).catch((error) => {
+        console.error('Failed to cache:', error);
+      });
     })
   );
 });
