@@ -7,7 +7,6 @@ const CACHE_NAME = 'coffee-finder-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/styles.css',
   '/script.js',
   '/logo192.png',
   '/logo512.png',
