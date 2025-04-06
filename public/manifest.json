@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Coffee Finder",
+  "name": "Coffee Finder - Discover Local Coffee Shops",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,8 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#6F4E37",
+  "background_color": "#FDF5E6",
+  "permissions": ["camera"],
+  "orientation": "portrait"
 }

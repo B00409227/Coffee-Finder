@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive grid for coffee shop cards on desktop */
+.coffee-shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+  .bottom-panel {
+    width: 400px !important;
+    right: 20px;
+    border-radius: 12px !important;
+    margin: 20px;
+  }
+}
+
+/* Custom scrollbar for the bottom panel */
+.bottom-panel {
+  scrollbar-width: thin;
+  scrollbar-color: #6F4E37 #DFE9EB;
+}
+
+.bottom-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.bottom-panel::-webkit-scrollbar-track {
+  background: #DFE9EB;
+}
+
+.bottom-panel::-webkit-scrollbar-thumb {
+  background-color: #6F4E37;
+  border-radius: 4px;
+}
+
