@@ -2,6 +2,38 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Overview
+
+This project, **Coffee Finder**, is a web application designed to help users discover and explore various coffee types and brands. Users can search for their favorite coffee, view detailed information, and find recommendations based on their preferences.
+
+## Link to Your GitHub Repository
+
+You can find the source code for this project at the following GitHub repository: [Coffee Finder GitHub Repository](https://github.com/B00409227/Coffee-Finder)
+
+## Installation Instructions
+
+To clone, install, and run the application, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/B00409227/Coffee-Finder.git
+   ```
+
+2. **Navigate into the project directory:**
+   ```bash
+   cd Coffee-Finder
+   ```
+
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the application:**
+   ```bash
+   npm start
+   ```
+
 ## Available Scripts
 
 In the project directory, you can run:
